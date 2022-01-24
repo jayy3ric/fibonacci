@@ -1,0 +1,92 @@
+
+body {
+    background-image: url('fibonacci.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat';
+  }
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 500;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 30%;
+    padding: 20px;
+    /* position: absolute;
+    left: 50%;
+    margin: 200px  0 0 -250px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+        width: 80%;
+    }
+  }
+
+  .form-control {
+      background-color: rgba(255, 255, 255, 0.637);
+      font-weight: 500;
+      border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+
+  }
+
+
+  .results-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.637);
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+}
+button {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+#results-1 {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#results-2 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#results-3 {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#results-4 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    /* letter-spacing: 5px; */
+}
